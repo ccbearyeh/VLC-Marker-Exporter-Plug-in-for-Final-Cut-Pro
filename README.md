@@ -6,7 +6,7 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
 ### Developed with assistance from Perplexity AI.
 
 ## Features
-- Add Markers During Playback: Click **Add Marker** to timestamp the current frame instantly.
+- Add Markers During Playback: Click "Add Marker" to timestamp the current frame instantly.
 - Categorized Notes: Select note types (Cut, Add, Audio, Color, Text, etc.) and add detailed descriptions.
 - Live Marker List: View all added markers directly in the VLC interface.
 - Export to CSV: Generates a structured CSV file compatible with editing tools and converters.
@@ -16,15 +16,19 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
 ### macOS
 1. Download `marker_export.lua`.
 2. Move the file to the VLC extensions directory:
-   `~/Library/Application Support/org.videolan.vlc/lua/extensions/`
+   ```
+   ~/Library/Application Support/org.videolan.vlc/lua/extensions/
   (Create the directory if it doesn't exist)
-3. Restart VLC.
+   ```
+4. Restart VLC.
 
 ### Windows
 1. Download `marker_export.lua`.
 2. Move the file to the VLC extensions directory:
-   `C:\Users\%USERNAME%\AppData\Roaming\vlc\lua\extensions\`
+   ```
+   C:\Users\%USERNAME%\AppData\Roaming\vlc\lua\extensions\
    (Create the directory if it doesn't exist)
+   ```
 3. Restart VLC.
 
 ## Usage Guide
@@ -41,8 +45,8 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
     1. Once finished, click **Export CSV**.
     2. Save the CSV file to your desktop.
     3. **Import to Final Cut Pro**:
-      - Use a free tool like **[EditingTools.io Marker Converter](https://editingtools.io/marker/)** to convert the CSV to '.fcpxml'.
-      - Drag the generated '.fcpxml' file directly onto your Final Cut Pro timeline (or import it as an event).
+      - Use a free tool like **[EditingTools.io Marker Converter](https://editingtools.io/marker/)** to convert the CSV to `.fcpxml`.
+      - Drag the generated `.fcpxml` file directly onto your Final Cut Pro timeline (or import it as an event).
       - Alternatively, use the CSV with the **Marker Toolbox** app on macOS. 
 ## CSV Format
 The exported CSV follows a standard editing note structure:
