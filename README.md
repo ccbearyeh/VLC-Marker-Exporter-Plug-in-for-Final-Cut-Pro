@@ -19,7 +19,6 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
    ```
    ~/Library/Application Support/org.videolan.vlc/lua/extensions/
   (Create the directory if it doesn't exist)
-   ```
 4. Restart VLC.
 
 ### Windows
@@ -28,7 +27,6 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
    ```
    C:\Users\%USERNAME%\AppData\Roaming\vlc\lua\extensions\
    (Create the directory if it doesn't exist)
-   ```
 3. Restart VLC.
 
 ## Usage Guide
