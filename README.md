@@ -16,7 +16,7 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
 ### macOS
 1. Download 'marker_export.lua'.
 2. Move the file to the VLC extensions directory:
-  '~/Library/Application Support/org.videolan.vlc/lua/extensions/'
+  "~/Library/Application Support/org.videolan.vlc/lua/extensions/"
   (Create the directory if it doesn't exist)
 3. Restart VLC.
 
