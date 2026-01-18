@@ -29,18 +29,18 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
 
 ## Usage Guide
 1. Adding Markers
-  1. Open a video in VLC.
-  2. Go to the menu bar: **VLC -> Extensions -> Marker Export for FCP**.
-  3. When you spot an edit point, pause the video (optional) and click **Add Marker**.
-  4. In the dialog:
+...1. Open a video in VLC.
+...2. Go to the menu bar: **VLC -> Extensions -> Marker Export for FCP**.
+...3. When you spot an edit point, pause the video (optional) and click **Add Marker**.
+...4. In the dialog:
     - Verify the Timecode.
     - Select a **Note Type** (e.g., "Cut", "Audio", "Color").
     - Enter your **Description**.
     - Click **Save Marker**. 
 2. Exporting & Workflow
-   1. Once finished, click **Export CSV**.
-   2. Save the CSV file to your desktop.
-   3. **Import to Final Cut Pro**:
+...1. Once finished, click **Export CSV**.
+...2. Save the CSV file to your desktop.
+...3. **Import to Final Cut Pro**:
     - Use a free tool like **[EditingTools.io Marker Converter](https://editingtools.io/marker/)** to convert the CSV to '.fcpxml'.
     - Drag the generated '.fcpxml' file directly onto your Final Cut Pro timeline (or import it as an event).
     - Alternatively, use the CSV with the 'Marker Toolbox' app on macOS. 
