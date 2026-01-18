@@ -6,7 +6,7 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
 ### Developed with assistance from Perplexity AI.
 
 ## Features
-- Add Markers During Playback: Click "Add Marker" to timestamp the current frame instantly.
+- Add Markers During Playback: Click **Add Marker** to timestamp the current frame instantly.
 - Categorized Notes: Select note types (Cut, Add, Audio, Color, Text, etc.) and add detailed descriptions.
 - Live Marker List: View all added markers directly in the VLC interface.
 - Export to CSV: Generates a structured CSV file compatible with editing tools and converters.
@@ -14,16 +14,16 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
 
 ## Installation
 ### macOS
-1. Download 'marker_export.lua'.
+1. Download `marker_export.lua`.
 2. Move the file to the VLC extensions directory:
-  "~/Library/Application Support/org.videolan.vlc/lua/extensions/"
+   `~/Library/Application Support/org.videolan.vlc/lua/extensions/`
   (Create the directory if it doesn't exist)
 3. Restart VLC.
 
 ### Windows
-1. Download 'marker_export.lua'.
+1. Download `marker_export.lua`.
 2. Move the file to the VLC extensions directory:
-   'C:\Users\%USERNAME%\AppData\Roaming\vlc\lua\extensions\'
+   `C:\Users\%USERNAME%\AppData\Roaming\vlc\lua\extensions\`
    (Create the directory if it doesn't exist)
 3. Restart VLC.
 
@@ -43,13 +43,13 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
     3. **Import to Final Cut Pro**:
       - Use a free tool like **[EditingTools.io Marker Converter](https://editingtools.io/marker/)** to convert the CSV to '.fcpxml'.
       - Drag the generated '.fcpxml' file directly onto your Final Cut Pro timeline (or import it as an event).
-      - Alternatively, use the CSV with the 'Marker Toolbox' app on macOS. 
+      - Alternatively, use the CSV with the **Marker Toolbox** app on macOS. 
 ## CSV Format
 The exported CSV follows a standard editing note structure:
-'''
-    Timecode, In TC, Out TC, Note Type, Description, Priority, Status, Reference
-    00:01:23:10,,,Cut,"Remove this section",Medium,Pending,
-'''
+```
+Timecode, In TC, Out TC, Note Type, Description, Priority, Status, Reference
+00:01:23:10,,,Cut,"Remove this section",Medium,Pending,
+```
 ## Credits
 - Concept & Code Structure: Shawn Yeh
 - AI Assistance & Lua Scripting: Perplexity AI
