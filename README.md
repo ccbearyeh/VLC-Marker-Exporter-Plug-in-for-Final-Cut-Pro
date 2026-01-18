@@ -29,7 +29,7 @@ Designed to streamline the feedback loop between reviewers (using VLC) and edito
 
 ## Usage Guide
 1. Adding Markers
-  1. Open a video in VLC.
+    1. Open a video in VLC.
   2. Go to the menu bar: **VLC -> Extensions -> Marker Export for FCP**.
   3. When you spot an edit point, pause the video (optional) and click **Add Marker**.
   4. In the dialog:
